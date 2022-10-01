@@ -1,6 +1,8 @@
 import React from 'react'
 import { ExploreWanderOn } from '../Components/ExploreWanderOn'
+import { Footer } from '../Components/Footer'
 import HelpDesk from '../Components/HelpDesk'
+import { Testimonials } from '../Components/Testimonials'
 import { TripList } from '../Components/TripList'
 
 export const MainPage = () => {
@@ -47,6 +49,8 @@ export const MainPage = () => {
             <ExploreWanderOn/>
             <TripList/><TripList/><TripList/><TripList/><TripList/>
             <HelpDesk/>
+            <Testimonials/>
+            <Footer/>
         </div>
     )
 }

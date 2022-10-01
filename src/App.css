@@ -1,3 +1,7 @@
+*{
+  font-family: cursive ;
+}
+
 .searchInput {
   box-sizing: border-box;
   width: 45vw;
@@ -419,4 +423,106 @@
   -webkit-box-pack: center;
   justify-content: center;
   margin-bottom: 6vh;
+}
+
+.mainTestimonials{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.videoContainerTestimonials{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 1rem;
+}
+
+.fa-arrow-left, .fa-arrow-right{
+  box-sizing: border-box;
+  height: 3vw;
+  color: white;
+  cursor: pointer;
+  background-color: rgba(0, 0, 0, 0.5);
+  border-radius: 50%;
+  padding: 1rem;
+}
+
+.mainFooter{
+  font-family: Montserrat,sans-serif;
+  background-color: white;
+  padding: 5vw 0px;
+  display: flex;
+  flex-direction: column;
+  -webkit-box-align: center;
+  align-items: center;
+  justify-content: center;
+}
+
+.logosFooter{
+  font-family: Montserrat,sans-serif;
+  box-sizing: border-box;
+  width: 25vw;
+  display: flex;
+  flex-direction: row;
+  -webkit-box-pack: justify;
+  justify-content: space-between;
+}
+
+.logoFooter{
+  font-family: Montserrat,sans-serif;
+  padding: 0.5rem;
+  background-color: rgba(85, 58, 58, 0.3);
+  border-radius: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: Montserrat,sans-serif;
+  color: inherit;
+  height: 1.5vw;
+  width: 1.5vw;
+  margin: 0.6vw;
+}
+
+.addressFooter>*{
+  text-align: center;
+  font-family: Montserrat,sans-serif;
+  box-sizing: border-box;
+  font-size: 1vw;
+  font-weight: 400;
+  color: rgb(58, 58, 58);
+  text-transform: uppercase;
+}
+
+.textTestimonials{
+  text-align: center;
+}
+
+.addressFooter{
+  font-family: Montserrat,sans-serif;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  -webkit-box-align: center;
+  align-items: center;
+  margin: 2vw 0px;
+}
+
+.contactFooter{
+  font-family: Montserrat,sans-serif;
+  box-sizing: border-box;
+  width: 45vw;
+  display: flex;
+  flex-direction: row;
+  -webkit-box-pack: justify;
+  justify-content: space-between;
+}
+
+.linkFooter{
+  font-family: Montserrat,sans-serif;
+  box-sizing: border-box;
+  text-decoration: none;
+  font-size: 1vw;
+  font-weight: 600;
+  color: rgb(58, 58, 58);
 }
