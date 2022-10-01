@@ -48,6 +48,7 @@
   align-items: center;
   -webkit-box-pack: end;
   justify-content: space-evenly;
+  max-width: 100vw !important;
 }
 
 .middle>*{
@@ -355,6 +356,12 @@
   -webkit-box-align: center;
   align-items: center;
   margin-top: 48px;
+  overflow-x: scroll;
+  overflow-y: visible ;
+}
+
+.mainExploreWanderOn::-webkit-scrollbar{
+  visibility: hidden;
 }
 
 .groupExploreWanderOn{
@@ -405,11 +412,11 @@
 
 .containerExploreWanderOn{
   font-family: Montserrat,sans-serif;
-  box-sizing: border-box;
   width: 80vw;
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
-  margin-top: 64px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 40px;
 }
 
 .footer {
@@ -525,4 +532,26 @@
   font-size: 1vw;
   font-weight: 600;
   color: rgb(58, 58, 58);
+}
+
+@media only screen 
+and (min-device-width : 320px) 
+and (max-device-width : 480px) {
+  .mainExploreWanderOn{
+    /* display: none; */
+
+  }
+
+  .mainTestimonials{
+    scale: 0.5;
+  }
+
+  .mainHelpDesk{
+    scale: 0.7;
+  }
+
+  .mainContainerTripList{
+    scale: 0.9;
+  }
+
 }
