@@ -1,0 +1,422 @@
+.searchInput {
+  box-sizing: border-box;
+  width: 45vw;
+  height: 4vw;
+  border: 1px solid rgb(10, 158, 136);
+  border-radius: 5px;
+  padding: 8px;
+  font-size: 1.5vw;
+  font-weight: 400;
+  color: white;
+  background: rgba(255, 255, 255, 0.2);
+}
+
+.searchLogo {
+  font-family: Montserrat, sans-serif;
+  box-sizing: border-box;
+  height: 4vw;
+  width: 4vw;
+  background-color: rgb(10, 158, 136);
+  padding: 0.7vw;
+  border-radius: 0px 5px 5px 0px;
+  margin-left: -4vw;
+}
+
+.searchBar {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.mainPage {
+  font-family: Montserrat,sans-serif;
+  box-sizing: border-box;
+  height: 100vh;
+  width: 100vw;
+  margin-top: -7vh;
+  background-image: linear-gradient(to top, rgba(0, 0, 0, 0.7) 0%, rgba(0, 0, 0, 0.7) 100%), url("https://wanderon-sales.s3.ap-south-1.amazonaws.com/gallery/triplist/main-cover.jpg");
+  background-position: center center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  display: flex;
+  flex-direction: column;
+  -webkit-box-align: center;
+  align-items: center;
+  -webkit-box-pack: end;
+  justify-content: space-evenly;
+}
+
+.middle>*{
+  margin-top: 3rem;
+}
+
+.inforGroupTripInfo{
+  font-family: Montserrat,sans-serif;
+  user-select: none;
+  -webkit-tap-highlight-color: transparent;
+  box-sizing: border-box;
+  color: rgb(10, 158, 136);
+  font-size: 1vw;
+  font-weight: 600;
+  display: flex;
+  flex-direction: row;
+  -webkit-box-align: center;
+  align-items: center;
+  padding: 8px;
+}
+
+.infoIconTripInfo{
+  width: 1.2vw;
+    height: 1.2vw;
+    margin-right: 4px;
+}
+
+.mainImageTripInfo{
+  font-family: Montserrat,sans-serif;
+  user-select: none;
+  -webkit-tap-highlight-color: transparent;
+  color: inherit;
+  box-sizing: border-box;
+  width: 21vw;
+  height: 17vw;
+  background-image: linear-gradient(to top, rgb(58, 58, 58) 0%, rgba(58, 58, 58, 0.5) 15%, rgba(58, 58, 58, 0) 25%, rgba(58, 58, 58, 0) 100%), url("https://wanderon-sales.s3.ap-south-1.amazonaws.com/gallery/triplist/bali-backpacking-6n/tanjung-benoa-beach.jpg");
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 1vw;
+  display: flex;
+  flex-direction: column;
+  -webkit-box-align: center;
+  align-items: center;
+  -webkit-box-pack: end;
+  justify-content: flex-end;
+  box-shadow: 0rem 0rem 0.2rem black;
+}
+
+.mainTripInfo{
+  font-family: Montserrat,sans-serif;
+  user-select: none;
+  -webkit-tap-highlight-color: transparent;
+  color: inherit;
+  box-sizing: border-box;
+  width: 21vw;
+  margin: 1vw 0px 16px 1vw;
+  display: flex;
+  flex-direction: column;
+  background-color: white;
+  border-radius: 1vw;
+}
+
+.mainTripInfo:hover{
+  font-family: Montserrat,sans-serif;
+  user-select: none;
+  -webkit-tap-highlight-color: transparent;
+  color: inherit;
+  box-sizing: border-box;
+  width: 21vw;
+  margin: 1vw 0px 16px 1vw;
+  display: flex;
+  flex-direction: column;
+  background-color: white;
+  border-radius: 1vw;
+  transform: scale(1.05);
+  transition: all 0.2s ease 0s;
+}
+
+.infoGroupTripInfo{
+  font-family: Montserrat,sans-serif;
+  user-select: none;
+  -webkit-tap-highlight-color: transparent;
+  color: inherit;
+  box-sizing: border-box;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+  -webkit-box-align: center;
+  align-items: center;
+  margin: auto;
+}
+
+.tripInfoTripList{
+  display: flex;
+  justify-content: space-around;
+}
+
+.selectTripList{
+  box-sizing: border-box;
+  font-size: 1.5vw;
+  margin-left: 16px;
+  color: rgb(58, 58, 58);
+  width: 8vw;
+  height: 3vw;
+  border: 2px solid rgb(158, 158, 158);
+  border-radius: 12px;
+  padding: 4px;
+  text-transform: capitalize;
+  text-align-last: center;
+  outline: none;
+}
+
+.headingTripList{
+  font-family: Montserrat,sans-serif;
+  box-sizing: border-box;
+  display: flex;
+  -webkit-box-align: center;
+  align-items: center;
+}
+
+.mainContainerTripList{
+  margin-top: 1rem;
+}
+
+.mainContainerTripList>*{
+  cursor: pointer;
+
+}
+
+.headingTripList>*{
+  margin: 1rem;
+}
+
+.infoContainerTripInfo{
+  font-family: Montserrat,sans-serif;
+  user-select: none;
+  -webkit-tap-highlight-color: transparent;
+  color: inherit;
+  box-sizing: border-box;
+  display: flex;
+  justify-content: start;
+  flex-direction: row;
+  -webkit-box-align: center;
+  align-items: center;
+  margin-top: 0.5rem;
+}
+
+.fullPage{
+  overflow-y: auto;
+}
+
+.footer>* {
+  font-family: Montserrat, sans-serif;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  -webkit-box-align: center;
+  align-items: center;
+  width: 30vw;
+  color: white;
+  text-align: center;
+}
+
+.mainHelpDesk{
+  font-family: Montserrat,sans-serif;
+  box-sizing: border-box;
+  background-image: url("https://wanderon.in/svg/home/cta.svg");
+  padding: 2.5vw 15vw 2.5vw 10vw;
+  margin-top: 64px;
+}
+
+.containerHelpDesk{
+  font-family: Montserrat,sans-serif;
+  box-sizing: border-box;
+  display: grid;
+  grid-template-areas: "texts images" "btn images" "ps images";
+  background-color: white;
+  border-radius: 2vw;
+  padding: 2.5vw 4vw;
+}
+
+.textContentHelpDesk{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+
+}
+
+.contactButtonHelpDesk{
+  font-family: Montserrat,sans-serif;
+  box-sizing: border-box;
+  text-decoration: none;
+  font-size: 1.2vw;
+  font-weight: 400;
+  color: white;
+  width: 16vw;
+  height: 4vw;
+  display: flex;
+  -webkit-box-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  justify-content: center;
+  text-transform: uppercase;
+  background-color: rgb(19, 36, 63);
+  border-radius: 1vw;
+  cursor: pointer;
+}
+
+.contactButtonHelpDesk:hover{
+  font-family: Montserrat,sans-serif;
+  box-sizing: border-box;
+  text-decoration: none;
+  grid-area: btn / btn / btn / btn;
+  font-size: 1.2vw;
+  font-weight: 400;
+  color: white;
+  width: 16vw;
+  height: 4vw;
+  display: flex;
+  -webkit-box-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  justify-content: center;
+  text-transform: uppercase;
+  background-color: rgb(19, 36, 63);
+  border-radius: 1vw;
+  cursor: pointer;
+  transform: scale(1.05);
+  transition: all 0.2s ease 0s;
+}
+
+.imageHelpDesk{
+  font-family: Montserrat,sans-serif;
+  scale: 2;
+}
+
+.containerHelpDesk{
+  font-family: Montserrat,sans-serif;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: white;
+  border-radius: 2vw;
+  padding: 2.5vw 4vw;
+}
+
+.containerHelpDesk>*{
+  margin-right: 3rem;
+}
+
+.footer>*>img {
+  font-family: Montserrat, sans-serif;
+  box-sizing: border-box;
+  height: 4vw;
+  margin: 0px 8px 0px 0px;
+}
+
+.footer>*>p{
+  margin-top: 0.5rem;
+}
+
+.tagLine{
+  font-family: Montserrat,sans-serif;
+  box-sizing: border-box;
+  font-size: 3.5vw;
+  font-weight: 600;
+  color: white;
+  margin-bottom: 2vh;
+}
+
+.header {
+  font-family: Montserrat, sans-serif;
+  color: white ;
+  box-sizing: border-box;
+  height: 7vh;
+  position: sticky;
+  top: 0vh;
+  display: flex;
+  flex-direction: row;
+  -webkit-box-align: center;
+  align-items: center;
+  -webkit-box-pack: justify;
+  justify-content: space-around;
+  background-color: rgb(21, 21, 21);
+  border-bottom: 1px solid rgba(58, 58, 58, 0.3);
+  z-index: 105;
+  transition: all 0.3s ease-in-out 0s;
+}
+
+.headerExploreWanderOn{
+  font-family: Montserrat,sans-serif;
+  box-sizing: border-box;
+  text-transform: capitalize;
+  font-size: 2.2vw;
+  font-weight: 600;
+  color: rgb(10, 158, 136);
+}
+
+.mainExploreWanderOn{
+  font-family: Montserrat,sans-serif;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  -webkit-box-align: center;
+  align-items: center;
+  margin-top: 48px;
+}
+
+.groupExploreWanderOn{
+  font-family: Montserrat,sans-serif;
+  color: inherit;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  -webkit-box-align: center;
+  align-items: center;
+  -webkit-box-pack: justify;
+  justify-content: space-between;
+  height: 9vw;
+  cursor: pointer;
+}
+
+.groupExploreWanderOn:hover{
+  font-family: Montserrat,sans-serif;
+  color: inherit;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  -webkit-box-align: center;
+  align-items: center;
+  -webkit-box-pack: justify;
+  justify-content: space-between;
+  height: 9vw;
+  transform: scale(1.1);
+  transition: all 0.2s ease 0s;
+}
+
+.groupExploreWanderOn p{
+  width: 7rem;
+  text-align: center;
+}
+
+.groupExploreWanderOn{
+  height: 9vw;
+  margin-bottom: 2rem;
+}
+
+.groupExploreWanderOn>img{
+  font-family: Montserrat,sans-serif;
+  color: inherit;
+  box-sizing: border-box;
+  height: 9vw;
+}
+
+.containerExploreWanderOn{
+  font-family: Montserrat,sans-serif;
+  box-sizing: border-box;
+  width: 80vw;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+  margin-top: 64px;
+}
+
+.footer {
+  font-family: Montserrat, sans-serif;
+  box-sizing: border-box;
+  width: 100vw;
+  display: flex;
+  flex-direction: row;
+  -webkit-box-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  justify-content: center;
+  margin-bottom: 6vh;
+}
