@@ -534,7 +534,7 @@
   flex-direction: column;
   -webkit-box-align: center;
   align-items: center;
-  margin: 2vw 0px;
+  margin: 0.5rem 0px;
 }
 
 .contactFooter{
@@ -554,6 +554,55 @@
   font-size: 1vw;
   font-weight: 600;
   color: rgb(58, 58, 58);
+}
+
+.containerKeyFeaturesGroup{
+  font-family: Montserrat, sans-serif;
+  box-sizing: border-box;
+  width: 90vw;
+  margin: 0px auto;
+  display: flex;
+  justify-content: space-around;
+}
+
+.keyFeatureGroup{
+  margin: 1rem 0rem;
+  font-family: Montserrat, sans-serif;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  -webkit-box-align: center;
+  align-items: center;
+  -webkit-box-pack: start;
+  justify-content: flex-start;
+  padding: 0px 16px;
+  scroll-snap-stop: always;
+  scroll-snap-align: start;
+}
+
+.keyFeatureGroup img{
+  font-family: Montserrat, sans-serif;
+  box-sizing: border-box;
+  height: 6vw;
+}
+
+.keyFeatureGroup h6{
+  font-family: Montserrat, sans-serif;
+  box-sizing: border-box;
+  font-size: 1.5vw;
+  font-weight: 600;
+  color: rgb(58, 58, 58);
+  text-align: center;
+  margin: 8px 0px;
+  width: 14vw;
+}
+
+.headingKeyFeatures{
+  text-align: center;
+}
+
+.mainKeyFeatures{
+  margin:3rem 0rem
 }
 
 @media only screen 

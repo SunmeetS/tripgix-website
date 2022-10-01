@@ -1,4 +1,5 @@
 import React from 'react'
+import { GroupExploreWanderOn } from './GroupExploreWanderOn'
 
 export const ExploreWanderOn = () => {
     return (
@@ -7,30 +8,12 @@ export const ExploreWanderOn = () => {
                 Explore Wanderon
             </div>
             <div className='containerExploreWanderOn' >
-                <div className='groupExploreWanderOn'>
-                    <img src="https://wanderon.in/svg/ny-trips.svg" alt="" />
-                    <p>Xmas & NY Trips</p>
-                </div>
-                <div className='groupExploreWanderOn'>
-                    <img src="https://wanderon.in/svg/ny-trips.svg" alt="" />
-                    <p>Xmas & NY Trips</p>
-                </div>
-                <div className='groupExploreWanderOn'>
-                    <img src="https://wanderon.in/svg/ny-trips.svg" alt="" />
-                    <p>Xmas & NY Trips</p>
-                </div>
-                <div className='groupExploreWanderOn'>
-                    <img src="https://wanderon.in/svg/ny-trips.svg" alt="" />
-                    <p>Xmas & NY Trips</p>
-                </div>
-                <div className='groupExploreWanderOn'>
-                    <img src="https://wanderon.in/svg/ny-trips.svg" alt="" />
-                    <p>Xmas & NY Trips</p>
-                </div>
-                <div className='groupExploreWanderOn'>
-                    <img src="https://wanderon.in/svg/ny-trips.svg" alt="" />
-                    <p>Xmas & NY Trips</p>
-                </div>
+                <GroupExploreWanderOn/>
+                <GroupExploreWanderOn/>
+                <GroupExploreWanderOn/>
+                <GroupExploreWanderOn/>
+                <GroupExploreWanderOn/>
+                <GroupExploreWanderOn/>
             </div>
         </div>
     )
