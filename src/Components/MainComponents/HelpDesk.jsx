@@ -6,9 +6,9 @@ const HelpDesk = () => {
 
       <div className="containerHelpDesk">
         <div className="textContentHelpDesk">
-          <h1>
+          <h3>
             Hand over all your <br /> requirements to our travel <br /> experts who've curated more <br /> than 200 itineraries.
-          </h1>
+          </h3>
           <button className="contactButtonHelpDesk">
             TALK TO OUR EXPERT
           </button>

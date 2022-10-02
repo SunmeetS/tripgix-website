@@ -1,20 +1,22 @@
 import React from 'react'
-import { ExploreWanderOn } from '../Components/ExploreWanderOn'
-import { Footer } from '../Components/Footer'
-import HelpDesk from '../Components/HelpDesk'
-import { MainPageComponent } from '../Components/MainPageComponent'
-import { Testimonials } from '../Components/Testimonials'
-import { TripList } from '../Components/TripList'
+import { ExploreWanderOn } from '../Components/MainComponents/ExploreWanderOn'
+import { Footer } from '../Components/MainComponents/Footer'
+import HelpDesk from '../Components/MainComponents/HelpDesk'
+import { MainPageComponent } from '../Components/MainComponents/MainPageComponent'
+import { Navbar } from '../Components/MainComponents/Navbar'
+import { Testimonials } from '../Components/MainComponents/Testimonials'
+import { TripList } from '../Components/MainComponents/TripList'
 
 export const MainPage = () => {
     return (
         <div className="fullPage">
-            <MainPageComponent/>
-            <ExploreWanderOn/>
-            <TripList/><TripList/><TripList/><TripList/><TripList/>
-            <HelpDesk/>
-            <Testimonials/>
-            <Footer/>
+            <Navbar />
+            <MainPageComponent />
+            <ExploreWanderOn />
+            <TripList /><TripList /><TripList /><TripList /><TripList />
+            <HelpDesk />
+            <Testimonials />
+            <Footer />
         </div>
     )
 }

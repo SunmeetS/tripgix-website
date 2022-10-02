@@ -3,18 +3,7 @@ import React from 'react'
 export const MainPageComponent = () => {
     return (
         <div className='mainMainPageComponent'>
-            <div className='header'>
-                <img src="./tripgixLogo" alt="Logo will come here" />
-                <div>
-                    <a href="tel:+6199942413">call us!</a>
-                </div>
-                Menu
-            </div>
-
-
-
             <div className="mainPage">
-
                 <div className="middle">
                     <div className="tagLine">
                         India's Coolest Travel Community
