@@ -177,6 +177,7 @@
   margin-top: 32px;
   width: 51vw;
   overflow-x: scroll;
+  overflow-y: visible;
   display: flex;
   flex-direction: row;
 }
@@ -991,9 +992,97 @@ a:hover {
 
   }
 
+.videoRightMiddleTripPage2{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.getInTouchTripPage2{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.getInTouchTripPage2>*>*>h4{
+  margin: 0.5rem;
+}
+.getInTouchTripPage2>*>*{
+  margin: 0.5rem;
+}
+
+.inputGroupTripPage2{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.inputGroupTripPage2>h4{
+  scale: 0.8;
+  text-align: center;
+}
+
+.inputContainerTripPage2{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+  .mainTripBasicInfo{
+    margin: 0rem;
+    padding: 0rem;
+    width: 100%;
+  }
+
+  .mainTripDetails{
+    overflow-x: scroll;
+    width: 100%;
+  }
+
+  .mainPhotos{
+    width: 100%;
+    overflow-x: hidden ;
+  }
+
+  .reactPlayerVideo{
+
+  }
+
+  .mainVideos{
+    width: 100%;
+    overflow-x: hidden ;
+  }
+
+  .mainTripInfoButtons{
+    margin: 1rem 0rem;
+    overflow-x: scroll;
+    width: 100%;
+  }
+
+  .groupTripBasicInfo{
+    margin: 0rem;
+    font-size: 0.4rem;
+  }
+
+  .middleTripPage2{
+    padding: 1rem;
+  }
+
+  .leftMiddleTripPage2{
+    width: fit-content;
+    text-align: start;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    height: 80%;
+    }
+
+
   .mainTestimonials {
     scale: 0.5;
   }
+
 
   .mainHelpDesk {
     scale: 0.7;
