@@ -9,6 +9,95 @@
   margin-top: 16px;
 }
 
+.tripTaglineTripBanner{
+  font-family: Montserrat,sans-serif;
+  box-sizing: border-box;
+  height: 5vw;
+  width: 24vw;
+  overflow: hidden;
+  font-size: 1.5vw;
+  text-align: left;
+  color: rgb(255, 255, 255);
+}
+
+.tripTitleTripBanner{
+  font-family: Montserrat,sans-serif;
+  box-sizing: border-box;
+  font-size: 4.5vw;
+  font-weight: 600;
+  text-transform: capitalize;
+  color: rgb(255, 255, 255);
+  place-self: flex-start start;
+}
+
+.buttonsTripBanner{
+  font-family: Montserrat,sans-serif;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: row;
+  place-self: flex-end end;
+  margin-top: 2vw;
+}
+
+.buttonsTripBanner>*{
+  box-sizing: border-box;
+  height: 4vw;
+  width: 17vw;
+  border: 1px solid black;
+  margin: 0rem 1rem;
+  border-radius: 1vw;
+  background-color: white;
+  color: rgb(58, 58, 58);
+  font-size: 1.2vw;
+  font-weight: bold;
+  text-transform: uppercase;
+  cursor: pointer;
+}
+
+.buttonsTripBanner>*:hover{
+  box-sizing: border-box;
+  height: 4vw;
+  width: 17vw;
+  border: 1px solid black;
+  border-radius: 1vw;
+  background-color: white;
+  color: rgb(58, 58, 58);
+  font-size: 1.2vw;
+  font-weight: bold;
+  text-transform: uppercase;
+  cursor: pointer;
+  transform: scale(1.05);
+  transition: all 0.2s ease 0s;
+}
+
+.navbarLogo{
+  font-family: Montserrat,sans-serif;
+  color: inherit;
+  box-sizing: border-box;
+  width: 8vh;
+  height: 8vh;
+  margin-left: 4vh;
+}
+
+.mainTripBanner{
+  font-family: Montserrat,sans-serif;
+  height: 75vh;
+  width: 100%;
+  background: linear-gradient(to top, rgba(0, 0, 0, 0.6) 15%, rgba(0, 0, 0, 0.3) 35%, rgba(0, 0, 0, 0) 60%);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  -webkit-box-pack: end;
+  justify-content: flex-end;
+  align-items: flex-start;
+  margin-top: -8vh;
+  padding: 0vw 8vw 2vw;
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 24px 24px;
+}
+
 .inputGroupTripPage2{
   font-family: Montserrat,sans-serif;
   box-sizing: border-box;
@@ -160,6 +249,21 @@
   display: flex;
   justify-content:space-around;
   width: 95vw;
+}
+
+.buttonTripPage2{
+  box-sizing: border-box;
+  background: 0% 0% no-repeat padding-box padding-box rgb(58, 58, 58);
+  border-radius: 0.5vw;
+  color: rgb(255, 255, 255);
+  font-size: 1vw;
+  font-weight: 600;
+  text-transform: uppercase;
+  border: 0px;
+  width: 10vw;
+  height: 3vw;
+  margin-top: 16px;
+  cursor: pointer;
 }
 
 .mainTripInfoButtons {
@@ -618,10 +722,7 @@
   flex-direction: row;
   align-items: center;
   justify-content: space-around;
-  background: rgba(0, 0, 0, 0.8)
-    /* Green background with 30% opacity */
-  ;
-  border-bottom: 1px solid rgba(58, 58, 58, 0.3);
+  background: rgba(0, 0, 0, 0.8);
   z-index: 1;
   transition: all 0.3s ease-in-out 0s;
 }

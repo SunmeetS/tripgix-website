@@ -1,11 +1,11 @@
 import React from 'react'
 
-export const Navbar = () => {
+export const Navbar = ({background}) => {
   return (
     <div className='mainNavbar'>
       
-        <div className='header'>
-                <img src="./tripgixLogo" alt="Logo will come here" />
+        <div style={{background: background}} className='header'>
+                <img className='navbarLogo' src="https://wanderon.in/wanderon-logo.svg" alt="Logo will come here" />
                 <div>
                     <a href="tel:+6199942413">call us!</a>
                 </div>

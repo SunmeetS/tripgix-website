@@ -4,6 +4,7 @@ import { MainPageComponent } from '../Components/MainComponents/MainPageComponen
 import { Navbar } from '../Components/MainComponents/Navbar'
 import { Header } from '../Components/TripComponents/Header'
 import { Photos } from '../Components/TripComponents/Photos'
+import { TripBanner } from '../Components/TripComponents/TripBanner'
 import { TripBasicInfo } from '../Components/TripComponents/TripBasicInfo'
 import { TripDetails } from '../Components/TripComponents/TripDetails'
 import { TripInfoButtons } from '../Components/TripComponents/TripInfoButtons'
@@ -15,7 +16,7 @@ export const TripPage2 = () => {
   return (
     <div className='tripPage2'>
       <Navbar />
-      <MainPageComponent />
+      <TripBanner backgroundImage={"https://images6.alphacoders.com/521/thumb-1920-521630.jpg"} />
       <div className="middleTripPage2">
         <div className="leftMiddleTripPage2">
           <TripBasicInfo pickupDropPlace={"Bangalore"} cost={"20,000 Rs."} duration={"10 days"} />
@@ -50,6 +51,7 @@ export const TripPage2 = () => {
                 <h4>Preferred Destination *</h4>
                 <input className='inputTripPage2' type="text" />
               </div>
+              <button className='buttonTripPage2'> Submit </button>
             </div>
 
           </div>
