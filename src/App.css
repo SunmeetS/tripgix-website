@@ -392,7 +392,7 @@
   align-items: center;
 }
 
-.mainPage {
+.mainMainPageComponent {
   font-family: Montserrat, sans-serif;
   box-sizing: border-box;
   height: 100vh;
@@ -722,7 +722,7 @@
   flex-direction: row;
   align-items: center;
   justify-content: space-around;
-  background: rgba(0, 0, 0, 0.8);
+  background: rgba(0, 0, 0, 0.5);
   z-index: 1;
   transition: all 0.3s ease-in-out 0s;
 }
